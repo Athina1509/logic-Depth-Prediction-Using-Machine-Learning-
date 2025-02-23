@@ -1,0 +1,21 @@
+module logic_depth_predictor (
+    input logic [3:0] fan_in,
+    input logic [3:0] fan_out,
+    input logic [1:0] gate_type,
+    output logic [3:0] depth_out
+);
+
+    always_comb begin
+        if (fan_in == 0 || fan_out == 0)
+            depth_out = 1;
+        else if (fan_in <= 3 && fan_out <= 3)
+            depth_out = 2;
+        else if (fan_in <= 7 && fan_out <= 7)
+            depth_out = 3;
+        else if (fan_in > 7 || fan_out > 7)
+            depth_out = 4;
+        else
+            depth_out = 1;
+    end
+
+endmodule
