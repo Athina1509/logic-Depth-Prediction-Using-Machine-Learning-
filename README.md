@@ -4,13 +4,13 @@
 This project predicts the combinational logic depth of digital circuits using an **Random Forest Regressor model**. It processes input circuit parameters such as **Fan-In, Fan-Out, and Gate-Type**, applies one-hot encoding for categorical variables, and trains the model using supervised learning.
 
 ## **Dependencies**
-Python 3.7+
-Pandas
-NumPy
-Scikit-Learn
-Random Forest Regressor Model
-System Verilog  (for logic simulation)
-EDA Tool (ModelSim, Quartus, Vivado, etc.)
+*Python 3.7+
+*Pandas
+*NumPy
+*Scikit-Learn
+*Random Forest Regressor Model
+*System Verilog  (for logic simulation)
+*EDA Tool (ModelSim, Quartus, Vivado, etc.)
 
 ## **Setup Instructions**  
 
