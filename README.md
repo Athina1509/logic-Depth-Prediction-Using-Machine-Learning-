@@ -39,18 +39,19 @@ Mean Absolute Error: 0.312*/
 
 
 #  **Project Structure**
+Logic-Depth-Prediction-Using-Machine-Learning
+│── data
+│   ├── logic_depth_data.csv
+│── models
+│   ├── trained_model.pkl
+│── src
+│   ├── train.py
+│   ├── test.py
+│── System verilog
+│   ├── logic_depth_lut.v
+│   ├── testbench.v
+│── requirements.txt
+│── README.md
 
-**********************************************************
-*                                                        *     
-*     Logic-Depth-Prediction-Using-Machine-Learning      *
-*           │── data                                     *
-*           │   ├── logic_depth_data.csv                 *  
-*           │── models                                   *
-*           │   ├── trained_model.pkl                    * 
-*           │── src                                      *
-*           │   ├── train.py                             *
-*           │   ├── test.py                              *
-*           │── requirements.txt                         *
-*           │── README.md                                *
-*                                                        *
-**********************************************************
+
+
